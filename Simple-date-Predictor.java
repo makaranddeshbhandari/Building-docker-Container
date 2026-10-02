@@ -17,7 +17,7 @@ class SimpleDatePredictor {
         if (enteredDate == null) {
             System.out.println("Invalid date format. Please enter a valid date.");
             return;
-        }
+	}
 
         System.out.print("How many days ahead should be predicted? (default: 1): ");
         String daysInput = scanner.nextLine().trim();
